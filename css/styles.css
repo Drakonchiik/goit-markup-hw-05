@@ -519,8 +519,8 @@ body {
   transform: translateY(300px);
 }
 
-.project-thumb:hover::before,
-.project-thumb:hover .project-thumb-descr {
+.proj-link:hover .project-thumb::before,
+.proj-link:hover .project-thumb-descr {
   opacity: 1;
   transform: translateY(0);
 }
