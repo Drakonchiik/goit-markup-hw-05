@@ -88,7 +88,7 @@ body {
   margin-left: 76px;
 }
 
-.nav .item+.item {
+.nav .item + .item {
   margin-left: 40px;
 }
 
@@ -139,7 +139,7 @@ body {
   margin-left: auto;
 }
 
-.auth-nav .item+.item {
+.auth-nav .item + .item {
   margin-left: 40px;
 }
 
@@ -167,9 +167,11 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 188px 0;
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../img/bgr-hero.jpg);
 }
 
@@ -235,7 +237,7 @@ body {
   width: 264px;
 }
 
-.advant .item+.item {
+.advant .item + .item {
   margin-left: 24px;
 }
 
@@ -271,7 +273,7 @@ body {
   display: inline-block;
 }
 
-.about-img .item+.item {
+.about-img .item + .item {
   margin-left: 24px;
 }
 
@@ -284,7 +286,7 @@ body {
   display: flex;
 }
 
-.our-team .item+.item {
+.our-team .item + .item {
   margin-left: 24px;
 }
 
@@ -370,7 +372,7 @@ body {
   justify-content: center;
 }
 
-.customers-list .item+.item {
+.customers-list .item + .item {
   margin-left: 24px;
 }
 
@@ -411,7 +413,7 @@ body {
   justify-content: center;
 }
 
-.filter .item+.item {
+.filter .item + .item {
   margin-left: 24px;
 }
 
@@ -456,7 +458,7 @@ body {
   padding: 0;
 }
 
-.project>.item {
+.project > .item {
   flex-basis: calc(100% / 3 - 24px);
   margin-top: 48px;
   margin-left: 24px;
@@ -520,7 +522,9 @@ body {
 }
 
 .proj-link:hover .project-thumb::before,
-.proj-link:hover .project-thumb-descr {
+.proj-link:hover .project-thumb-descr,
+.proj-link:focus .project-thumb::before,
+.proj-link:focus .project-thumb-descr {
   opacity: 1;
   transform: translateY(0);
 }
@@ -588,7 +592,7 @@ body {
   margin-top: 16px;
 }
 
-.social-list-footer>.item+.item {
+.social-list-footer > .item + .item {
   margin-left: 16px;
 }
 
